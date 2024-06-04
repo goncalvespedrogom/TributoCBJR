@@ -1,0 +1,334 @@
+/* geral */
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    background-color: black;
+    height: 100vh;
+}
+.cabeçalho{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+/* estilo do cabeçalho */
+.header{
+    padding: 40px 4%;
+}
+.header > .main-title{
+    color: red;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;   
+}
+.header > .main-paragraph{
+    color: white;
+    text-align: center;
+    font-style: normal;
+}
+/* imagem de destaque */
+.featured-image{
+    margin-top: 13px;
+    text-align: center;
+    position: relative;
+    animation: flutuar 1.5s ease-in-out infinite alternate;
+}
+.featured-image img{
+    border-radius: 20px;
+}
+/* biografia */
+.iniciobanda{
+    margin-top: 100px;
+    padding: 0px 20px 0px 20px;
+}
+.iniciobanda h2{
+    color: red;
+    font-size: 35px;
+}
+.iniciobanda p{
+    margin: 10px 0;
+    color: white;
+    font-size: 15px;
+    text-align: justify;
+}
+.bold{
+    font-weight: bold;
+}
+.inicioimagem{
+    text-align: center;
+}
+.inicioimagem img{
+    border-radius: 20px;
+    margin-top: 40px;
+    width: 600px
+}
+.sucesso{
+    margin-top: 50px;
+    padding: 0px 20px 0px 20px;
+}
+.sucesso h2{
+    color: red;
+    font-size: 35px;
+}
+.sucesso p{
+    margin: 10px 0;
+    color: white;
+    font-size: 15px;
+    text-align: justify;
+}
+.sucessoimagem2{
+    text-align: center;
+}
+.sucessoimagem2 img{
+    border-radius: 20px;
+    margin-top: 40px;
+    width: 600px
+}
+.sucesso2{
+    margin-top: 50px;
+    padding: 0px 20px 0px 20px;
+}
+.sucesso2 h2{
+    color: red;
+    font-size: 35px;
+}
+.sucesso2 p{
+    margin: 10px 0;
+    color: white;
+    font-size: 15px;
+    text-align: justify;
+}
+.sucessoimagem{
+    text-align: center;
+}
+.sucessoimagem img{
+    border-radius: 20px;
+    margin-top: 40px;
+    width: 600px
+}
+.marcadoshistoria{
+    margin-top: 50px;
+    padding: 0px 20px 0px 20px;
+}
+.marcadoshistoria h2{
+    color: red;
+    font-size: 35px;
+}
+.marcadoshistoria p{
+    margin: 10px 0;
+    color: white;
+    font-size: 15px;
+    text-align: justify;
+}
+/* citação */
+.frases{
+    margin-top: 100px;
+    color: white;
+    text-align: center;
+    padding: 0px 20px 0px 20px;
+}
+.frases blockquote{
+    font-weight: bold;
+    font-size: 20px;
+}
+.frases p{
+    font-size: 15px;
+}
+.frasesimagem{
+    text-align: center;
+}
+.frasesimagem img{
+    border-radius: 20px;
+    margin-top: 100px;
+    width: 600px
+}
+/* integrantes */
+.integrantes{
+    margin-top: 50px;
+    padding: 0px 20px 0px 20px;
+}
+.integrantes h2{
+    color: red;
+    font-size: 35px;
+}
+.integrantes .integrantesbanda{
+    font-weight: bold;
+    font-size: 20px;
+}
+.integrantes p{
+    margin-top: 30px;
+    color: white;
+    font-size: 15px;
+    text-align: justify;
+}
+.integrantes .imgintegrante{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.integrantes .imgintegrante img{
+    border-radius: 20px;
+}
+.integrantes .txtintegrante {
+    display: flex;
+    gap: 20px;
+}
+.maisinfo{
+    margin-top: 50px;
+    padding: 0px 20px 0px 20px;
+}
+.maisinfo h2{
+    color: red;
+    font-size: 35px;
+}
+.maisinfo p{
+    margin: 10px 0;
+    color: white;
+    font-size: 15px;
+    text-align: justify;
+}
+.maisinfoimagem{
+    text-align: center;
+}
+.maisinfoimagem img{
+    border-radius: 20px;
+    margin-top: 50px;
+    width: 600px
+}
+.maisinfo a{
+    color: red;
+}
+footer{
+    margin-top: 100px;
+    padding: 20px 4%;
+    box-shadow: 0 0 40px 10px #ffffff1D;
+}
+footer .rodape p{
+    padding: 2px;
+    color: white;
+    font-size: 13px;
+    text-align: center;
+}
+footer .rodape p a{
+    color: #fff;
+}
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 20px
+    } 
+}
+@media screen and (max-width: 815px){
+    .header > .main-title{
+        font-size: 30px;
+    }
+    .header > .main-paragraph{
+        font-size: 12px;
+    }
+    .featured-image{
+        margin-top: 0px;
+    }
+    .featured-image img{
+        width: 280px;
+    }
+    .iniciobanda{
+        margin-top: 40px;
+    }
+    
+    .iniciobanda h2{
+        font-size: 18px;
+    }
+    
+    .iniciobanda p{
+        font-size: 12px;
+    }
+    
+    .inicioimagem img{
+        margin-top: 10px;
+        width: 280px
+    }
+    .sucesso{
+        margin-top: 50px;
+    }
+    .sucesso h2{
+        font-size: 18px;
+    }
+    .sucesso p{
+        font-size: 12px;
+    }
+    .sucessoimagem2 img{
+        margin-top: 10px;
+        width: 280px
+    }
+    .sucesso2{
+        margin-top: 10px;
+    }  
+    .sucesso2 p{
+        font-size: 12px;
+    }
+    .sucessoimagem img{
+        margin-top: 10px;
+        width: 280px
+    }
+    .marcadoshistoria h2{
+        font-size: 18px;
+    }
+    .marcadoshistoria p{
+        font-size: 12px;
+    }
+    .frases{
+        margin-top: 30px;
+    }
+    .frases blockquote{
+        font-size: 12px;
+    }
+    .frases p{
+        font-size: 10px;
+    }
+    .frasesimagem img{
+        margin-top: 30px;
+        width: 280px
+    }
+    .integrantes h2{
+        font-size: 18px;
+    }
+    .integrantes .integrantesbanda{
+        font-size: 13px;
+    }
+    .integrantes p{
+        font-size: 12px;
+        text-align: center;
+    }
+    .integrantes .imgintegrante{
+        margin-top: 40px;
+        text-align: center;
+        margin-bottom: -20px;
+    }
+    .integrantes .txtintegrante {
+        display: inline-block;
+    }
+    .maisinfo h2{
+        font-size: 18px;
+    }
+    .maisinfo p{
+        font-size: 12px;
+    }
+    .maisinfoimagem img{
+        margin-top: 20px;
+        width: 280px
+    }
+    footer{
+        margin-top: 60px;
+        padding: 20px 4%;
+    }
+    footer .rodape p{
+        padding: 2px;
+        font-size: 9px;
+    }
+}
